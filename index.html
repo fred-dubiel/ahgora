@@ -1,0 +1,119 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>AHGORA - Fred Dubiel</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="https://d20976lrvb5j1l.cloudfront.net/wp-content/uploads/2018/03/21101924/favicon1-150x150.png">
+  <!-- Place favicon.ico in the root directory -->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="css/ahgora.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- Add your site or application content here -->
+  <header>
+    <div class="screen-header">
+      
+    </div>
+    <div class="screen-title">
+     <h1>FILMES</h1> 
+    </div>
+     
+  </header>
+  <main>
+    <div class="screen-body clearfix">
+
+      <div class="screen-search-box clearfix">
+      <form method="POST" id="search-form">
+        <div class="screen-search-text-box">
+          <span class="fa fa-search fa-1x"></span>
+          <input type="text" id="query-string" name="q" placeholder="Pesquisar" value="" required="">
+        </div>
+        <button type="submit" id="search-button">Aplicar</button>
+        </form>
+      </div>
+    <article>
+      <div>
+      
+      <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog">
+          
+            <!-- Modal content-->
+            <div class="modal-content ">
+              <div class="modal-body">
+                <div class="modal-body-image">
+                 <img class="modal-body-poster" src="">
+                </div>
+                <div class="modal-body-text">
+                  <p class="modal-body-title">Some text in the modal.</p>
+                  <p class="modal-body-plot">Some text in the modal.</p>
+                  <p> <span class="modal-label">Ano:</span> <span  class="modal-body-year">Some text in the modal.</span></p>
+                  <p> <span class="modal-label"> Gênero:</span> <span  class="modal-body-genre">Some text in the modal.</span></p>
+                  <p> <span class="modal-label"> Diretor:</span> <span  class="modal-body-director">Some text in the modal.</span></p>
+                  <p> <span class="modal-label"> Prêmios:</span> <span  class="modal-body-awards">Some text in the modal.</span></p>
+                  <button type="button" class="btn modal-close-button" data-dismiss="modal">Ok</button>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+          <div class="div-header-collumns clearfix" id="movie-list-header">
+            <div class="div-collumn collumn-lg" id="header-movie-title">Título</div>
+            <div class="div-collumn collumn-md" id="header-movie-year">Ano</div>
+            <div class="div-collumn collumn-md" id="header-movie-genre">Gênero</div>
+          </div>
+          <div class="clearfix" id="movie-list">
+            <div class="movie-line visuallyhidden clearfix"" id="movie-line" >
+                <div class="div-collumn collumn-lg modal-link"  id="movie-title"  data-toggle="modal" data-target="#myModal"></div>
+                <div class="div-collumn collumn-md"  id="movie-year"></div>
+                <div class="div-collumn collumn-md" id="movie-genre"></div>
+            </div>
+          </div>
+      </div>
+    </article>
+    </div>
+  </main>
+  <div class="alert alert-warning alert-dismissible fade " id="search-warning" role="alert">
+        Pesquisa Inválida, tente novamente!
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>  
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" 
+  crossorigin="anonymous"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+  </script>
+</body>
+
+</html>

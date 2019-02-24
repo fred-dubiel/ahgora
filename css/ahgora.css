@@ -1,0 +1,144 @@
+
+ body {
+ 	font-family: "Open Sans";
+ 	color: #9196AC;
+ 	font-size: 14px;
+ }
+
+h1 {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 30px;
+	color: #717163;
+}
+
+.screen-header {
+	background:  url("../img/logo-new1.png") 0 0 no-repeat;
+	background-color: #515163;
+	height:48px;
+}
+.screen-title {
+	background-color: #FAFAFA; 
+	padding: 30px 0 30px 10px;  
+}
+
+.screen-body {
+	background-color: #F1F2F5;
+	padding:20px;
+}
+
+.screen-search-box {
+	background-color: #FAFAFA; 
+	border-radius: 5px;
+}
+
+
+.screen-search-text-box {
+	width: 90%;
+	margin: 0 0 0 15px;
+	float: left;
+	padding-top: 10px;
+}
+
+.screen-search-box input {
+	margin-left: 5px; 
+	border: none;
+	display: table-cell;
+	width: 95%
+}
+
+.screen-search-box button {
+	font-size: 16px;
+	height: 48px;
+	float: right;
+	padding-right: 24px; 
+	padding-left: 24px;
+	background-color: #1199DD;
+	color: #FAFAFA;
+	border: none; 
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px
+
+}
+
+.div-header-collumns{
+	margin-top: 20px;
+	background-color: #FAFAFA; 
+	color: #767E92;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	font-weight: 600;
+	font-size: 18px;
+	height: 48px;
+	padding-top: 10px;
+}
+
+.div-collumn {
+  float: left;
+  padding-left: 40px;
+}
+
+.collumn-lg {
+	width: 50%;
+}
+
+.collumn-md {
+	width: 25%;
+	
+}
+
+.modal-link {
+	color: #1199DD;
+	cursor: pointer;
+}
+
+#movie-list:nth-child(even) {
+  border: purple solid 1px;
+}
+
+.modal-content {
+	width: 600px
+}
+
+.modal-body-image  {
+	width: 50%;
+	
+	float: left;
+}
+
+.modal-body-text{
+	width: 50%;
+	float: left;
+	font-size: 14px;
+}
+
+.modal-body-title {
+	font-weight: 600;
+}
+
+
+.modal-label{
+	font-weight: bold;
+}
+
+.modal-body-image img {
+	width: 210px;
+	height: 300px;
+	display: block;
+	margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.modal-close-button {
+	padding: 0 24px 0 24px;
+	background-color: #1199DD;
+	color: #FAFAFA;
+	height: 36px;
+	float: right;
+}
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
